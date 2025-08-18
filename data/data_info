@@ -1,1 +1,22 @@
-ffff
+This project uses a customer sentiment dataset collected from multiple online platforms (Twitter, Yelp, IMDb, etc.) for training and evaluation of the sentiment analysis pipeline.
+
+Source: Curated customer feedback from public platforms (synthetic/anonymized for demonstration).
+
+Format: CSV file containing 98 rows and 7 fields.
+
+Schema:
+
+Column Name	Type	Description
+Text	string	Raw customer review / post text
+Sentiment	category	Labeled sentiment (Positive, Negative, Neutral)
+Source	string	Platform from which the text was collected (e.g., Twitter, Yelp, IMDb)
+Date/Time	datetime	Timestamp of the entry
+User ID	string	Anonymized identifier of the user
+Location	string	Location metadata, if available
+Confidence Score	float	Model-assigned probability score for sentiment classification
+
+Data Usage:
+
+Used for testing preprocessing, training ML/DL models (LSTM, CNN, GPT-4 integration).
+
+Demonstrates the end-to-end pipeline for real-time ingestion, processing, and sentiment reasoning.
