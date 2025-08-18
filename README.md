@@ -1,4 +1,4 @@
-# Automated Patient Feedback Sentiment Analysis  
+# Automated Feedback Sentiment Analysis  
 **Academic Project — NHS-Relevant Modernised**  
 _VIT University | Chennai, India | Data Analyst_
 
