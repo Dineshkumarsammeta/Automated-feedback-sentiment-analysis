@@ -21,7 +21,7 @@ This project built a fully automated sentiment analysis system focused on NHS pa
 ## 📂 Project Resources  
 
 - 📊 [Data Folder](./data/)  
-- 📓 [Jupyter Notebook](./notebooks/sentiment_pipeline.ipynb)  
+- 📓 [Jupyter Notebook](sample.ipynb)  
 
 ## Project Achievements  
 - Reduced feedback analysis turnaround time by **70%** through automation of preprocessing and sentiment scoring.  
