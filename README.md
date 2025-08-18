@@ -17,8 +17,11 @@ This project built a fully automated sentiment analysis system focused on NHS pa
 - **Web/API:** Flask (REST API)  
 - **Version Control:** Git  
 - **Others:** Ethical data handling & anonymization methods
+- 
+## 📂 Project Resources  
 
----
+- 📊 [Data Folder](./data/)  
+- 📓 [Jupyter Notebook](./notebooks/sentiment_pipeline.ipynb)  
 
 ## Project Achievements  
 - Reduced feedback analysis turnaround time by **70%** through automation of preprocessing and sentiment scoring.  
@@ -45,6 +48,9 @@ Patient data was anonymized and handled in strict accordance with NHS informatio
 ## Contact  
 For questions, collaboration, or feedback, please contact:  
 **Sammeta Dinesh Kumar** — [sammetadineshkumar@gmail.com]
+- 🌐 [Portfolio](https://your-portfolio-link.com)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/yourusername/)  
+- 🐙 [GitHub](https://github.com/yourusername)  
 
 ---
 
