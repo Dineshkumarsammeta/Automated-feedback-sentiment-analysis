@@ -4,17 +4,14 @@
 **Duration:** Nov 2012 – Jan 2013  
 **Location:** VIT University, Vellore, India  
 **Modules Covered**
-| **Module**                                          | **Application in Project**                                                                                                          |
-| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |              |
-| **Artificial Intelligence**                         | Core NLP and sentiment analysis using machine learning libraries (NLTK, TextBlob).                                                  |
-                                      |
-| **Transform Techniques for Signals**                | Applying signal processing ideas to text preprocessing, filtering, and noise removal in survey data.                                |
-| **Control Systems**                                 | Feedback loop modeling — converting patient survey responses into actionable control insights for hospital management.              |
-
-| **Applied Numerical Methods**                       | Data preprocessing, probability/statistical calculations, optimization of NLP algorithms.                                           |                        |
-| **Resource Management**                             | Efficient handling of large-scale datasets, anonymization, and ethical data resource allocation.                                    |
-                          |
-| **Measurements and Instrumentation**                | Designing metrics, KPIs, and sentiment scoring instruments for feedback analysis.                                                   |                                            |                                  |
+| **Module**                       | **Application in Project**                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------------------|
+| **Artificial Intelligence**      | Core NLP and sentiment analysis using machine learning libraries (NLTK, TextBlob).          |
+| **Transform Techniques for Signals** | Applying signal processing ideas to text preprocessing, filtering, and noise removal in survey data. |
+| **Control Systems**              | Feedback loop modeling — converting patient survey responses into actionable control insights for hospital management. |
+| **Applied Numerical Methods**    | Data preprocessing, probability/statistical calculations, optimization of NLP algorithms.   |
+| **Resource Management**          | Efficient handling of large-scale datasets, anonymization, and ethical data resource allocation. |
+| **Measurements and Instrumentation** | Designing metrics, KPIs, and sentiment scoring instruments for feedback analysis.           |
 
 ---
 
