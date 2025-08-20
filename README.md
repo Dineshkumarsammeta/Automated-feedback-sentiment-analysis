@@ -48,9 +48,8 @@ Patient data was anonymized and handled in strict accordance with NHS informatio
 ## Contact  
 For questions, collaboration, or feedback, please contact:  
 **Sammeta Dinesh Kumar** — [sammetadineshkumar@gmail.com]
-- 🌐 [Portfolio](https://your-portfolio-link.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/yourusername/)  
-- 🐙 [GitHub](https://github.com/yourusername)  
+- 🌐 [Portfolio](https://dineshsammeta1234.github.io/)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/dineshsammeta)   
 
 ---
 
