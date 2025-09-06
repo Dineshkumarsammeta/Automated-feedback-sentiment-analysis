@@ -22,10 +22,11 @@ if not os.path.exists(csv_path):
 assert os.path.exists(csv_path), "Mock CSV not found!"
 
 # Run the main script
-exit_code = os.system("python feedback_analysis_ci.py")  # replace with your script name
+exit_code = os.system("python path/to/test_feedback_ci.py")
 assert exit_code == 0, "Script failed to run!"
 
 # Check output files
+
 assert os.path.exists("prepared_feedback.csv"), "Clean CSV not generated!"
 assert os.path.exists("plots/feedback_length_distribution.png"), "Feedback plot not generated!"
 assert os.path.exists("plots/sentiment_distribution.png"), "Sentiment plot not generated!"
