@@ -28,7 +28,7 @@ jobs:
         run: mkdir -p plots
 
       - name: Run analysis script
-        run: python feedback_analysis_ci.py
+        run: python test_feedback_ci.py
 
       - name: Upload generated plots
         uses: actions/upload-artifact@v4
