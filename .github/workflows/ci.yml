@@ -11,38 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Step 2: Setup Python
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas matplotlib pandas_datareader numpy textblob wordcloud
+          pip install -r requirements.txt
 
-      # Step 4: Create directory for plots
       - name: Create plots folder
         run: mkdir -p plots
 
-      # Step 5: Run Python script
       - name: Run analysis script
-        run: python test_feedback_ci.py
-      # Step 6: install depenecde
-      - name: Install dependencies
-        run: python -m pip install --upgrade pip
-             pip install -r requirements.txt
-      - name: Verify packages
-        run: pip show seaborn
-             pip show matplotlib
+        run: python feedback_analysis_ci.py
 
-      # Step 7: Upload plots as artifacts
       - name: Upload generated plots
         uses: actions/upload-artifact@v4
         with:
