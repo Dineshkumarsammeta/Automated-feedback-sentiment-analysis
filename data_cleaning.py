@@ -29,7 +29,7 @@ if not os.path.exists(mock_csv_path):
     df_mock.to_csv(mock_csv_path, index=False)
 
 
-# Step 1: Load Data
+# Step 1: Load Data into path mock
 
 df = pd.read_csv(mock_csv_path)
 print("🔍 Raw Data Sample")
