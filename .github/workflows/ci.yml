@@ -33,7 +33,7 @@ jobs:
 
       # Step 5: Run Python script
       - name: Run analysis script
-        run: python your_script.py
+        run: python data_cleaning.py
 
       # Step 6: Upload plots as artifacts
       - name: Upload generated plots
