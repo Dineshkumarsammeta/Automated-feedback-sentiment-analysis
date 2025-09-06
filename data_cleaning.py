@@ -1,5 +1,5 @@
 import matplotlib
- matplotlib.use('Agg')  # headless backend for CI
+matplotlib.use('Agg')  # headless backend for CI
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
