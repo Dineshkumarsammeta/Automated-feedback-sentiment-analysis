@@ -33,7 +33,7 @@ jobs:
 
       # Step 5: Run Python script
       - name: Run analysis script
-        run: python data_cleaning.py
+        run: python test_feedback_ci.py
       # Step 6: install depenecde
       - name: Install dependencies
         run: python -m pip install --upgrade pip
