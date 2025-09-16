@@ -1,5 +1,22 @@
 # Automated Feedback Sentiment Analysis  
+**🔄 Modernization Note (2025 Update)**
+This project was originally developed in 2012 as part of academic coursework at VIT University. In 2025, it has been modernized and updated to leverage current best practices in Python, NLP, and deployment:
 
+Python Upgrade: Codebase updated to Python 3.11+ for improved performance and compatibility with modern libraries.
+
+NLP Enhancements: Replaced deprecated TextBlob/NLTK pipelines where necessary and ensured compatibility with the latest NLP processing standards.
+
+Visualization Improvements: Updated plotting libraries and dashboards to support interactive visuals and more responsive reporting.
+
+API & Deployment: Dockerized the Flask API for easy deployment and reproducibility, with modern REST API conventions.
+
+Data Handling & Privacy: Enhanced anonymization workflows and compliance with contemporary healthcare data privacy standards (HIPAA/GDPR).
+
+Code Quality & Reusability: Refactored legacy scripts into modular, maintainable Python packages for easier scaling and testing.
+
+Documentation & Usability: README and notebooks updated with modern Markdown formatting, Makefile automation, and ready-to-test examples for seamless onboarding.
+
+Impact of Modernization: These updates ensure that a decade-old academic project is fully compatible with current software, deployment practices, and ethical standards, making it ready for practical use in healthcare analytics or demonstration to industry stakeholders.
 ## 📅 Project Timeline
 **Duration:** Nov 2012 – Jan 2013  
 **Location:** VIT University, Vellore, India  
@@ -49,18 +66,18 @@ You can run the Flask-based sentiment analysis API locally using the provided `M
 ### Start the API
 ```bash
 make web
-
+```
 This will launch the Flask server at http://localhost:5000
 .
 
 Test the API
 
 Send a sample request with curl:
-
+```bash
 curl -X POST http://localhost:5000/analyze \
   -H "Content-Type: application/json" \
   -d '{"text": "The doctors were helpful but the waiting time was long."}'
-
+```
 
 Example response:
 
@@ -74,13 +91,12 @@ Example response:
 Dockerized Run
 
 If you prefer Docker:
-
+```bash
 make docker-build
 make docker-run
-
+```
 
 The service will then be available at http://localhost:5000/analyze
-.
 
 
 ---
