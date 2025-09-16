@@ -21,5 +21,6 @@ RUN pip install --upgrade pip && \
     pip install -r requirements.txt && \
     pip install .[pipeline]
 
-# Copy entrypoint (Flask app assumed at src/app.py)
-CMD ["python", "-m", "src.app"]
+# Copy entrypoint 
+CMD ["python", "-m", "src.sentiment_pipeline.api"]
+
