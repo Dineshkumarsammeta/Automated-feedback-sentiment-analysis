@@ -66,3 +66,7 @@ testpaths = ["tests"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+pip install .[pipeline]
+make web
+
