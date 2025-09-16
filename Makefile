@@ -22,3 +22,9 @@ docker-run:
 web:
 \tpython -m src.sentiment_pipeline.api
 
+make web
+
+curl -X POST http://localhost:5000/analyze \
+  -H "Content-Type: application/json" \
+  -d '{"text": "The doctors were helpful but the waiting time was long."}'
+
