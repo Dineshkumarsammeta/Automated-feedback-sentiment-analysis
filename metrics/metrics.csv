@@ -1,0 +1,8 @@
+Metrics
+
+metric	value
+accuracy	0.9
+f1_weighted	0.88
+latency_p50_ms	210
+latency_p95_ms	430
+throughput_rps	2.8
