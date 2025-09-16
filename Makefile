@@ -18,3 +18,7 @@ docker-build:
 
 docker-run:
 \tdocker run --env-file .env -p 5000:5000 sentiment-pipeline
+
+web:
+\tpython -m src.sentiment_pipeline.api
+
