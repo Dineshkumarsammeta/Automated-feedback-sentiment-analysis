@@ -42,13 +42,52 @@ This project built a fully automated sentiment analysis system focused on feedba
 - Developed feedback dashboards that empowered trust employees to prioritize improvements benefiting 1,000+ patients quarterly.  
 - Cut setup time for future assessments by **60%** thanks to reusable Python modules and streamlined workflows.
 ## Getting Started  
-To run or build upon this project:  
-1. Clone the repository.  
-2. Install required Python packages (e.g., via `pip install -r requirements.txt`).  
-3. Load NHS patient survey CSV datasets (anonymized).  
-4. Execute preprocessing and sentiment analysis scripts.  
-5. Generate visual reports and run the Flask API for summary insights.  
+## 🚀 Running the Web API
 
+You can run the Flask-based sentiment analysis API locally using the provided `Makefile`.
+
+### Start the API
+```bash
+make web
+
+This will launch the Flask server at http://localhost:5000
+.
+
+Test the API
+
+Send a sample request with curl:
+
+curl -X POST http://localhost:5000/analyze \
+  -H "Content-Type: application/json" \
+  -d '{"text": "The doctors were helpful but the waiting time was long."}'
+
+
+Example response:
+
+{
+  "text": "The doctors were helpful but the waiting time was long.",
+  "sentiment": "neutral",
+  "polarity": 0.1,
+  "subjectivity": 0.75
+}
+
+Dockerized Run
+
+If you prefer Docker:
+
+make docker-build
+make docker-run
+
+
+The service will then be available at http://localhost:5000/analyze
+.
+
+
+---
+
+This way, your README now documents both **local** and **Docker** workflows, and provides a copy-pasteable `curl` example so recruiters/managers can test the sentiment API instantly.  
+
+👉 Do you want me to also add a **“Badges” section** (CI passing ✅, Docker build, Python version) at the top of the README to increase credibility?
 ---
 
 ## Ethics & Privacy  
