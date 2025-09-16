@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automated-feedback-sentiment-analysis"
+version = "0.1.0"
+description = "Automated sentiment analysis of patient feedback using NLP, signal-inspired preprocessing, and Flask API dashboards."
+readme = "README.md"
+authors = [
+    { name = "Sammeta Dinesh Kumar", email = "sammetadineshkumar@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+keywords = [
+    "NLP",
+    "sentiment-analysis",
+    "healthcare",
+    "feedback",
+    "Flask",
+    "data-visualization",
+    "machine-learning"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+    "Framework :: Flask"
+]
+
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "nltk>=3.7",
+    "textblob>=0.17",
+    "flask>=2.2",
+    "matplotlib>=3.6",
+    "wordcloud>=1.8", # probably what you meant by "Wort"
+    "scikit-learn>=1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "jupyter>=1.0",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
