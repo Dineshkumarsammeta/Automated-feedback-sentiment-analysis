@@ -14,7 +14,7 @@ This log keeps a transparent record of work sessions, evidence, and releases so 
 
 ---
 
-## Objectives for v0.1.0 (48‑hour plan)
+## Objectives for v0.1.0
 - [ ] Add `pyproject.toml` (Python 3.11) and pin core deps
 - [ ] Add `Dockerfile`, `.env.template`, and `Makefile`
 - [ ] Restructure to `src/` where helpful
