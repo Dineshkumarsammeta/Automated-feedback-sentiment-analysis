@@ -1,5 +1,6 @@
 # Automated Feedback Sentiment Analysis  
 **🔄 Modernization Note (2025 Update)**
+
 This project was originally developed in 2012 as part of academic coursework at VIT University. In 2025, it has been modernized and updated to leverage current best practices in Python, NLP, and deployment:
 
 Python Upgrade: Codebase updated to Python 3.11+ for improved performance and compatibility with modern libraries.
@@ -10,7 +11,7 @@ Visualization Improvements: Updated plotting libraries and dashboards to support
 
 API & Deployment: Dockerized the Flask API for easy deployment and reproducibility, with modern REST API conventions.
 
-Data Handling & Privacy: Enhanced anonymization workflows and compliance with contemporary healthcare data privacy standards (HIPAA/GDPR).
+Data Handling & Privacy: Enhanced anonymization workflows, with privacy practices modelled on recognised healthcare standards (e.g., NHS IG, GDPR, HIPAA) for demonstration purposes.
 
 Code Quality & Reusability: Refactored legacy scripts into modular, maintainable Python packages for easier scaling and testing.
 
@@ -107,7 +108,9 @@ This way, your README now documents both **local** and **Docker** workflows, and
 ---
 
 ## Ethics & Privacy  
-Patient data was anonymized and handled in strict accordance with NHS information governance standards, ensuring privacy, security, and transparency throughout the project lifecycle.
+
+All patient data used in the project was anonymised.
+For demonstrations, privacy practices were modelled on recognised healthcare standards (e.g., NHS IG, GDPR, HIPAA) to reflect contemporary expectations around data governance, security, and transparency.
 
 ---
 
