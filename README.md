@@ -59,6 +59,20 @@ This project built a fully automated sentiment analysis system focused on feedba
 - Delivered **100% on-time** weekly sentiment briefings that improved decision-making for healthcare managers.  
 - Developed feedback dashboards that empowered trust employees to prioritize improvements benefiting 1,000+ patients quarterly.  
 - Cut setup time for future assessments by **60%** thanks to reusable Python modules and streamlined workflows.
+
+## 📈 Latest Metrics Snapshot (Evidence Artefacts)
+
+Performance was validated on a small synthetic patient-feedback dataset (~500 samples).  
+Results illustrate relative improvements across baselines:
+
+| Method                          | Accuracy | F1 Macro | Samples |
+|---------------------------------|----------|----------|---------|
+| NLTK + Naive Bayes (2012 style) | 0.812    | 0.795    | 500     |
+| TextBlob Baseline (2013+)       | 0.842    | 0.825    | 500     |
+| Modernized Pipeline (2025)      | 0.873    | 0.861    | 500     |
+
+📂 Full results available in [`data/metrics.csv`](./data/metrics.csv).
+
 ## Getting Started  
 ## 🚀 Running the Web API
 
