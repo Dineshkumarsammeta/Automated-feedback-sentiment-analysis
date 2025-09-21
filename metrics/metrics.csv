@@ -1,6 +1,4 @@
 Metrics
-
-
 run_date,dataset,method,accuracy,f1_macro,n_samples
 2025-09-20,synthetic_patient_feedback,NLTK+NaiveBayes,0.812,0.795,500
 2025-09-20,synthetic_patient_feedback,TextBlob_Baseline,0.842,0.825,500
