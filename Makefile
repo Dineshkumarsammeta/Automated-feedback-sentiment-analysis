@@ -1,25 +1,25 @@
-# Run all project tasks easily
-.PHONY: install dev test run docker-build docker-run web
+# Makefile for Automated Feedback Sentiment Analysis
+
+# Default Python environment
+PYTHON ?= python3
+
+.PHONY: install dev test web docker-build docker-run
 
 install:
-\tpip install .[pipeline]
+	$(PYTHON) -m pip install --upgrade pip
+	$(PYTHON) -m pip install .[pipeline]
 
 dev:
-\tpip install .[dev,pipeline]
+	$(PYTHON) -m pip install -e .[dev,pipeline]
 
 test:
-\tpytest -q
+	pytest
 
-# Run Flask using env variables (from .env)
-run:
-\tflask run --host=0.0.0.0 --port=5000
-
-# Run the app directly (bypassing flask CLI)
 web:
-\tpython -m src.sentiment_pipeline.api
+	$(PYTHON) -m flask --app src.app run --reload
 
 docker-build:
-\tdocker build -t sentiment-pipeline .
+	docker build -t feedback-sentiment .
 
 docker-run:
-\tdocker run --env-file .env -p 5000:5000 sentiment-pipeline
+	docker run -p 5000:5000 feedback-sentiment
