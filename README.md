@@ -34,9 +34,7 @@ Impact of Modernization: These updates ensure that a decade-old academic project
 ---
 
 ## Overview  
-This project built a fully automated sentiment analysis system focused on feedback. Using Python and natural language processing (NLP), the system processes raw patient survey data, scores sentiments, and generates insightful visual reports and dashboards tailored for healthcare trust managers and digital health teams.
-
-
+This project developed a fully automated sentiment analysis solution designed to evaluate feedback. Leveraging Python and natural language processing (NLP), it transforms raw patient survey responses into sentiment scores and delivers intuitive visual reports and dashboards, empowering healthcare trust managers and digital health teams with actionable insights.
 ---
 
 ## Technologies Used  
