@@ -18,8 +18,10 @@ Code Quality & Reusability: Refactored legacy scripts into modular, maintainable
 Documentation & Usability: README and notebooks updated with modern Markdown formatting, Makefile automation, and ready-to-test examples for seamless onboarding.
 
 Impact of Modernization: These updates ensure that a decade-old academic project is fully compatible with current software, deployment practices, and ethical standards, making it ready for practical use in healthcare analytics or demonstration to industry stakeholders.
+
+
 ## 📅 Project Timeline
-**Duration:** Nov 2012 – Jan 2013  
+**Duration:** Nov 2012 – Jan 2013  (Part - Time)
 **Location:** VIT University, Vellore, India  
 **Modules Covered**
 | **Module**                       | **Application in Project**                                                                 |
