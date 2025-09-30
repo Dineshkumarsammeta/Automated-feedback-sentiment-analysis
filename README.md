@@ -21,8 +21,10 @@ Impact of Modernization: These updates ensure that a decade-old academic project
 
 
 ## 📅 Project Timeline
-**Duration:** Nov 2012 – Jan 2013  (Part - Time)
+**Duration:** 10 Nov 2012 – 25 Jan 2013  (Part - Time)
+**Acadamic Year:** 3rd year of Electrical and Electronics Engineering
 **Location:** VIT University, Vellore, India  
+
 **Modules Covered**
 | **Module**                       | **Application in Project**                                                                 |
 |----------------------------------|---------------------------------------------------------------------------------------------|
