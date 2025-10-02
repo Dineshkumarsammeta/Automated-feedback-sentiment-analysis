@@ -1,4 +1,12 @@
 # Automated Feedback Sentiment Analysis  
+
+
+
+## 📅 Project Timeline
+- **Duration:** 10 Nov 2012 – 25 Jan 2013  (Part - Time)
+- **Acadamic Year:** 3rd year of Electrical and Electronics Engineering
+- **Location:** VIT University, Vellore, India
+  
 **🔄 Modernization Note (2025 Update)**
 
 This project was originally developed in 2012 as part of academic coursework at VIT University. In 2025, it has been modernized and updated to leverage current best practices in Python, NLP, and deployment:
@@ -18,12 +26,6 @@ Code Quality & Reusability: Refactored legacy scripts into modular, maintainable
 Documentation & Usability: README and notebooks updated with modern Markdown formatting, Makefile automation, and ready-to-test examples for seamless onboarding.
 
 Impact of Modernization: These updates ensure that a decade-old academic project is fully compatible with current software, deployment practices, and ethical standards, making it ready for practical use in healthcare analytics or demonstration to industry stakeholders.
-
-
-## 📅 Project Timeline
-- **Duration:** 10 Nov 2012 – 25 Jan 2013  (Part - Time)
-- **Acadamic Year:** 3rd year of Electrical and Electronics Engineering
-- **Location:** VIT University, Vellore, India  
 
 **Modules Covered**
 | **Module**                       | **Application in Project**                                                                 |
