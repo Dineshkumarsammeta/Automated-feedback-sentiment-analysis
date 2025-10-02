@@ -23,6 +23,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pytest python-dotenv numpy scipy matplotlib seaborn
 
       - name: Create plots folder
         run: mkdir -p plots
